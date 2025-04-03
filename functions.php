@@ -1,6 +1,6 @@
 <?php
 function prueba_asdrubal_enrique_cuevas_scripts() {
-    // Registrar y encolar CSS personalizado
+    // Seccion de creacion del estilo del css
     wp_enqueue_style(
         'prueba-asdrubal-custom-style',
         get_template_directory_uri() . '/css/custom.css',
@@ -8,7 +8,7 @@ function prueba_asdrubal_enrique_cuevas_scripts() {
         '1.0.0'
     );
 
-    // Registrar y encolar JavaScript personalizado
+    // Seccion de creacion del JavaScript
     wp_enqueue_script(
         'prueba-asdrubal-custom-script',
         get_template_directory_uri() . '/js/custom.js',
