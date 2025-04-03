@@ -1,19 +1,25 @@
 /*
-Theme Name: prueba-asdrubal--enrique-cuevas
-Theme URI: https://github.com/tu-usuario/prueba-asdrubal--enrique-cuevas
-Author: Betic
+Theme Name: prueba-asdrubal--enrique-cuevas-
+Theme URI: https://github.com/titicuevas/prueba-asdrubal--enrique-cuevas-
+Author: Enrique Cuevas
 Description: Tema personalizado para la prueba técnica de Asdrubal
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: prueba-asdrubal--enrique-cuevas
+Text Domain: prueba-asdrubal--enrique-cuevas-
 */
 
-/* Estilos generales */
+/* Estilos base - Los estilos principales están en css/custom.css */
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 header {
