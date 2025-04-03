@@ -1,0 +1,46 @@
+/* Estilos personalizados */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.site-header {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.site-title {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #333;
+}
+
+.site-description {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.section {
+    padding: 4rem 0;
+}
+
+.section-one {
+    background-color: #fff;
+}
+
+.section-two {
+    background-color: #f8f9fa;
+}
+
+.section-three {
+    background-color: #e9ecef;
+}
+
+.site-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+} 
